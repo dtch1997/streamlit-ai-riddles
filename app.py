@@ -4,7 +4,7 @@ import pathlib
 
 # Setup paths
 curr_dir = pathlib.Path(__file__).parent
-results_path = curr_dir / "results" / "results.csv"
+results_path = curr_dir / "results.csv"
 
 def load_data() -> pd.DataFrame:
     """Load and preprocess the results dataframe"""
